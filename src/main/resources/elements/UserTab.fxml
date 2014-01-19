@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="200.0" prefWidth="200.0" spacing="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<children><HBox alignment="CENTER_LEFT" prefHeight="15.0" prefWidth="200.0" spacing="5.0">
+<children><Label alignment="CENTER" contentDisplay="TOP" text="User" /><Label text=":" /><Label fx:id="userName" text="userName" />
+</children></HBox><HBox alignment="CENTER_LEFT" prefHeight="15.0" prefWidth="200.0" spacing="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<children>
+<Label alignment="CENTER" contentDisplay="TOP" text="Amount" />
+<Label text=":" />
+<Label fx:id="userAmount" text="userAmount" />
+</children>
+</HBox><Button fx:id="addInput" mnemonicParsing="false" text="Add Input" /><Button fx:id="addCredit" mnemonicParsing="false" text="Add Credit" />
+</children>
+<padding>
+<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+</padding>
+<opaqueInsets>
+<Insets />
+</opaqueInsets></VBox>
